@@ -1,3 +1,5 @@
+import SingleDimensionArray.SingleDimensionArray;
+
 public class Main {
     public static void main(String[] args) {
         SingleDimensionArray s = new SingleDimensionArray(10);
@@ -7,9 +9,9 @@ public class Main {
         s.insert(1,50);
         s.insert(4,312891283);
 
-        var firstElement = s.array[0];
+        int firstElement = s.getArray()[0];
         System.out.println(firstElement);
-        var thirdElement = s.array[2];
+        int thirdElement = s.getArray()[2];
         System.out.println(firstElement);
         s.traverseArray();
         s.searchInArray(9);

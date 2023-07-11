@@ -1,3 +1,5 @@
+package SingleDimensionArray;
+
 public class SingleDimensionArray {
     int[] array = null;
 
@@ -48,5 +50,9 @@ public class SingleDimensionArray {
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Index provided not in array range!");
         }
+    }
+
+    public int[] getArray() {
+        return array;
     }
 }
